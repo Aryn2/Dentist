@@ -33,7 +33,7 @@ public class Controller {
     void initialize() {
         SignIn.setOnAction(event -> {
             SignIn.getScene().getWindow().hide();
-            System.out.println("Hello ARYN");
+            System.out.println("Hello Aidos");
         });
     }
 
