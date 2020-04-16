@@ -20,10 +20,13 @@
                 <Font name="Times New Roman" size="20.0" />
             </font>
         </Button>
-        <TextField fx:id="login" layoutX="212.0" layoutY="276.0" prefHeight="26.0" prefWidth="174.0" promptText="Login/email adress" />
-        <PasswordField fx:id="password" layoutX="212.0" layoutY="313.0" prefHeight="26.0" prefWidth="174.0" promptText="Password" />
-      <TextField fx:id="name" layoutX="213.0" layoutY="161.0" prefHeight="26.0" prefWidth="174.0" promptText="Name" />
-      <TextField fx:id="surname" layoutX="212.0" layoutY="200.0" prefHeight="26.0" prefWidth="174.0" promptText="Surname" />
-      <TextField fx:id="telephone" layoutX="212.0" layoutY="238.0" prefHeight="26.0" prefWidth="174.0" promptText="Telephone" />
+        <TextField fx:id="login" layoutX="83.0" layoutY="282.0" prefHeight="26.0" prefWidth="174.0" promptText="Login/email adress" />
+        <PasswordField fx:id="password" layoutX="343.0" layoutY="282.0" prefHeight="26.0" prefWidth="174.0" promptText="Password" />
+      <TextField fx:id="name" layoutX="83.0" layoutY="160.0" prefHeight="26.0" prefWidth="174.0" promptText="Name" />
+      <TextField fx:id="surname" layoutX="343.0" layoutY="160.0" prefHeight="26.0" prefWidth="174.0" promptText="Surname" />
+      <TextField fx:id="telephone" layoutX="83.0" layoutY="200.0" prefHeight="26.0" prefWidth="174.0" promptText="Telephone" />
+      <TextField fx:id="passportId" layoutX="343.0" layoutY="201.0" prefHeight="26.0" prefWidth="174.0" promptText="Passport ID" />
+      <TextField fx:id="adress" layoutX="83.0" layoutY="241.0" prefHeight="26.0" prefWidth="174.0" promptText="Adress" />
+      <TextField fx:id="birthDate" layoutX="343.0" layoutY="242.0" prefHeight="26.0" prefWidth="174.0" promptText="Birth date" />
     </children>
 </AnchorPane>
