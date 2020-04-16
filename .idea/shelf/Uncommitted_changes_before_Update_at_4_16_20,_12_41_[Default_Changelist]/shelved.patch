@@ -1,0 +1,17 @@
+Index: src/sample/loginMenu/Controller.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package sample.loginMenu;\n\nimport java.net.URL;\nimport java.util.ResourceBundle;\nimport javafx.fxml.FXML;\nimport javafx.scene.control.Button;\nimport javafx.scene.control.PasswordField;\nimport javafx.scene.control.TextField;\n\n\npublic class Controller {\n\n    @FXML\n    private ResourceBundle resources;\n\n    @FXML\n    private URL location;\n\n    @FXML\n    private Button SignIn;\n\n    @FXML\n    private TextField login;\n\n    @FXML\n    private PasswordField password;\n\n    @FXML\n    private Button registrationButton;\n\n    @FXML\n    void initialize() {\n        SignIn.setOnAction(event -> {\n            SignIn.getScene().getWindow().hide();\n            System.out.println(\"Hello World\");\n        });\n    }\n\n}\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/sample/loginMenu/Controller.java	(revision 60ef0f9ee4ca26d866f36bd370509b6c62c7406f)
++++ src/sample/loginMenu/Controller.java	(date 1587019235086)
+@@ -8,6 +8,7 @@
+ import javafx.scene.control.TextField;
+ 
+ 
++
+ public class Controller {
+ 
+     @FXML
