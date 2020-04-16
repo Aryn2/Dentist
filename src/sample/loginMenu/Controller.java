@@ -32,7 +32,7 @@ public class Controller {
     void initialize() {
         SignIn.setOnAction(event -> {
             SignIn.getScene().getWindow().hide();
-            System.out.println("Hello");
+            System.out.println("Hello World");
         });
     }
 
