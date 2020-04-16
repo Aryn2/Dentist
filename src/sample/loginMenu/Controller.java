@@ -8,7 +8,6 @@ import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 
 
-
 public class Controller {
 
     @FXML
@@ -33,7 +32,7 @@ public class Controller {
     void initialize() {
         SignIn.setOnAction(event -> {
             SignIn.getScene().getWindow().hide();
-            System.out.println("Hello Aidos");
+            System.out.println("Hello AIDOS");
         });
     }
 
