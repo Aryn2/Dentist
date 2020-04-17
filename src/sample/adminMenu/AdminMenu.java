@@ -5,8 +5,9 @@ import java.util.ResourceBundle;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.text.Text;
+import sample.loginMenu.Controller;
 
-public class AdminMenu {
+public class AdminMenu extends Controller {
 
     @FXML
     private ResourceBundle resources;
@@ -27,6 +28,9 @@ public class AdminMenu {
     private Text emailField;
 
     @FXML
+    private Button exitButton;
+
+    @FXML
     private Button addPatientButton;
 
     @FXML
@@ -36,7 +40,11 @@ public class AdminMenu {
     private Button viewPatientButton;
 
     @FXML
+    ////Мы сделали наследие с главного Контроллера для перехода на другую страницу
     void initialize() {
+        exitButton.setOnAction(event -> {
+            super.change(exitButton, "loginMenu/sample");
+        });
 
     }
 }
