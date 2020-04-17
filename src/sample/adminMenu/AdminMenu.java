@@ -37,13 +37,6 @@ public class AdminMenu {
 
     @FXML
     void initialize() {
-        assert nameField != null : "fx:id=\"nameField\" was not injected: check your FXML file 'adminMenu.fxml'.";
-        assert surnameField != null : "fx:id=\"surnameField\" was not injected: check your FXML file 'adminMenu.fxml'.";
-        assert idField != null : "fx:id=\"idField\" was not injected: check your FXML file 'adminMenu.fxml'.";
-        assert emailField != null : "fx:id=\"emailField\" was not injected: check your FXML file 'adminMenu.fxml'.";
-        assert addPatientButton != null : "fx:id=\"addPatientButton\" was not injected: check your FXML file 'adminMenu.fxml'.";
-        assert deletePatientButton != null : "fx:id=\"deletePatientButton\" was not injected: check your FXML file 'adminMenu.fxml'.";
-        assert viewPatientButton != null : "fx:id=\"viewPatientButton\" was not injected: check your FXML file 'adminMenu.fxml'.";
 
     }
 }
