@@ -20,42 +20,42 @@
                   <Cursor fx:constant="DEFAULT" />
                </cursor>
             </ImageView>
-            <Text fx:id="nameField" layoutX="220.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" wrappingWidth="201.336669921875">
+            <Text fx:id="nameField" layoutX="210.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mr.Ardos" wrappingWidth="201.336669921875">
                <font>
                   <Font name="Times New Roman" size="24.0" />
                </font>
             </Text>
-            <Text fx:id="surnameField" layoutX="220.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2" wrappingWidth="201.3366699218751">
+            <Text fx:id="surnameField" layoutX="381.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dentist-Admin menu" wrappingWidth="214.9366455078126">
                <font>
                   <Font name="Times New Roman" size="24.0" />
                </font>
             </Text>
-            <Text fx:id="idField" layoutX="220.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3" wrappingWidth="201.3366699218751">
+            <Text fx:id="idField" layoutX="210.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dentist" wrappingWidth="201.3366699218751">
                <font>
                   <Font name="Times New Roman" size="24.0" />
                </font>
             </Text>
-            <Text fx:id="emailField" layoutX="220.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4" wrappingWidth="201.3366699218751">
+            <Text fx:id="emailField" layoutX="210.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ardos@gmail.com" wrappingWidth="201.3366699218751">
                <font>
                   <Font name="Times New Roman" size="24.0" />
                </font>
             </Text>
-            <Button fx:id="exitButton" layoutX="851.0" layoutY="23.0" mnemonicParsing="false" text="EXIT" />
+            <Button fx:id="exitButton" layoutX="851.0" layoutY="23.0" mnemonicParsing="false" style="-fx-background-color: red;" text="EXIT" />
          </children>
       </AnchorPane>
-      <Button fx:id="addPatientButton" layoutX="317.0" layoutY="488.0" mnemonicParsing="false" prefHeight="122.0" prefWidth="307.0" text="Add patient">
+      <Button fx:id="addPatientButton" layoutX="317.0" layoutY="488.0" mnemonicParsing="false" prefHeight="122.0" prefWidth="307.0" style="-fx-background-color: lightblue;" text="Add patient">
          <font>
-            <Font name="Times New Roman Bold" size="24.0" />
+            <Font name="Times New Roman Bold" size="32.0" />
          </font>
       </Button>
-      <Button fx:id="deletePatientButton" layoutX="527.0" layoutY="279.0" mnemonicParsing="false" prefHeight="122.0" prefWidth="307.0" text="Delete patient">
+      <Button fx:id="deletePatientButton" layoutX="527.0" layoutY="279.0" mnemonicParsing="false" prefHeight="122.0" prefWidth="307.0" style="-fx-background-color: lightblue;" text="Delete patient">
          <font>
-            <Font size="24.0" />
+            <Font name="Times New Roman Bold" size="32.0" />
          </font>
       </Button>
-      <Button fx:id="viewPatientButton" layoutX="95.0" layoutY="279.0" mnemonicParsing="false" prefHeight="121.0" prefWidth="307.0" text="View patient">
+      <Button fx:id="viewPatientButton" layoutX="95.0" layoutY="279.0" mnemonicParsing="false" prefHeight="121.0" prefWidth="307.0" style="-fx-background-color: lightblue;" text="View patient">
          <font>
-            <Font name="Times New Roman" size="32.0" />
+            <Font name="Times New Roman Bold" size="32.0" />
          </font>
       </Button>
    </children>

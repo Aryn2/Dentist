@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="701.0" prefWidth="929.0" style="-fx-background-color: f0f8ff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.adminMenu.AdminMenu">
+    <children>
+        <AnchorPane prefHeight="217.0" prefWidth="930.0" style="-fx-background-color: fafff0;">
+            <children>
+                <ImageView cache="true" depthTest="DISABLE" fitHeight="171.0" fitWidth="165.0" layoutX="26.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../assets/overview-icon-14.png" />
+                    </image>
+                    <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                    </cursor>
+                </ImageView>
+                <Text fx:id="nameField" layoutX="210.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mr.Ardos" wrappingWidth="201.336669921875">
+                    <font>
+                        <Font name="Times New Roman" size="24.0" />
+                    </font>
+                </Text>
+                <Text fx:id="surnameField" layoutX="381.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dentist-Admin menu" wrappingWidth="214.9366455078126">
+                    <font>
+                        <Font name="Times New Roman" size="24.0" />
+                    </font>
+                </Text>
+                <Text fx:id="idField" layoutX="210.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dentist" wrappingWidth="201.3366699218751">
+                    <font>
+                        <Font name="Times New Roman" size="24.0" />
+                    </font>
+                </Text>
+                <Text fx:id="emailField" layoutX="210.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ardos@gmail.com" wrappingWidth="201.3366699218751">
+                    <font>
+                        <Font name="Times New Roman" size="24.0" />
+                    </font>
+                </Text>
+                <Button fx:id="exitButton" layoutX="851.0" layoutY="23.0" mnemonicParsing="false" style="-fx-background-color: red;" text="EXIT" />
+            </children>
+        </AnchorPane>
+        <Button fx:id="addPatientButton" layoutX="317.0" layoutY="488.0" mnemonicParsing="false" prefHeight="122.0" prefWidth="307.0" style="-fx-background-color: lightblue;" text="Add patient">
+            <font>
+                <Font name="Times New Roman Bold" size="32.0" />
+            </font>
+        </Button>
+        <Button fx:id="deletePatientButton" layoutX="527.0" layoutY="279.0" mnemonicParsing="false" prefHeight="122.0" prefWidth="307.0" style="-fx-background-color: lightblue;" text="Delete patient">
+            <font>
+                <Font name="Times New Roman Bold" size="32.0" />
+            </font>
+        </Button>
+        <Button fx:id="viewPatientButton" layoutX="95.0" layoutY="279.0" mnemonicParsing="false" prefHeight="121.0" prefWidth="307.0" style="-fx-background-color: lightblue;" text="View patient">
+            <font>
+                <Font name="Times New Roman Bold" size="32.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

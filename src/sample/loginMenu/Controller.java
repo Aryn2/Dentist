@@ -38,6 +38,10 @@ public class Controller {
         SignIn.setOnAction(event -> {
             change(SignIn, "adminMenu/adminMenu");
         });
+        registrationButton.setOnAction(event -> {
+            change(registrationButton,"registerMenu/registration");
+        });
+
     }
     public void change(Button button, String url) {
         button.getScene().getWindow().hide();
