@@ -27,28 +27,26 @@ public class ControllerReg implements changeWindow {
     private Button acceptButton ;
 
     @FXML
-    private TextField login1;
+    private TextField loginField;
 
     @FXML
-    private PasswordField password;
+    private PasswordField passwordField;
 
     @FXML
-    private TextField name;
+    private TextField nameField;
 
     @FXML
-    private TextField surname;
+    private TextField surnameField;
 
     @FXML
-    private TextField telephone;
+    private TextField telephoneField;
 
     @FXML
-    private TextField passportId;
+    private TextField passportIdField;
 
     @FXML
-    private TextField adress;
+    private TextField adressField;
 
-    @FXML
-    private TextField birthDate;
 
     @FXML
     private Button exitButton;
@@ -76,8 +74,22 @@ public class ControllerReg implements changeWindow {
             change(exitButton);
         });
         acceptButton.setOnAction(event -> {
-            change(acceptButton);
+            if (checkLogin(loginField))
+                change(acceptButton);
+            else
+                System.out.println("ERROR");
+
         });
+    }
+    boolean checkLogin(TextField loginField){
+        try {
+            String login = loginField.getText();
+            if (!(login == "")) {
+                return true;
+            } else return false;
+        }
+        catch (Exception e)
+        System.out.printf(e);
     }
 
 }
